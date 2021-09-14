@@ -10,22 +10,17 @@
 
 ## Learning Laravel send email using queue 
 
-### Step 1
-
-
-## Laravel Sponsors
-
-- Setting up queue connection on .env file
+### Setting up queue connection on .env file
   ``` QUEUE_CONNECTION=database ```
 
-- Create queue job table
+### Create queue job table
   ``` php artisan queue:table ```
   
   ``` php artisan migrate ```
 
-- Create mailable
+### Create mailable
   ``` php artisan make:mail SendEmailDemo ```
 
-- Create jobs
+### Create jobs
   ``` php artisan make:job SendEmailJob ```
 
